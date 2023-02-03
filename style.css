@@ -1,0 +1,186 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer,
+.top {
+    background-color:#1F2937 ;
+}
+
+.top {
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    color:#E5E7EB;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.sub {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+
+.subtitle {
+    font-weight: 800;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boxntext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.two {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+.textbox {
+    padding: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bolder;
+    float: right;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    flex-shrink: 1;
+    min-width: none;
+
+}
+
+.banner {
+    background-color: #3882F6;
+    padding: 50px 400px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.wordbox {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+.up {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.bottom {
+    color: #E5E7EB;
+}
+
+.bannerbtn {
+    border: white 2px solid;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 50px;
+    color: white;
+}
